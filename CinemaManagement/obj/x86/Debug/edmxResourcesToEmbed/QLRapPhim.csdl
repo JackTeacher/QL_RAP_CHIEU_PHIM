@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLRapPhimModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="QLRapPhimEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ChucVus" EntityType="QLRapPhimModel.ChucVu" />
+    <EntitySet Name="DangPhims" EntityType="QLRapPhimModel.DangPhim" />
+    <EntitySet Name="Gias" EntityType="QLRapPhimModel.Gia" />
+    <EntitySet Name="Liches" EntityType="QLRapPhimModel.Lich" />
+    <EntitySet Name="LichChieux" EntityType="QLRapPhimModel.LichChieu" />
+    <EntitySet Name="LoaiPhims" EntityType="QLRapPhimModel.LoaiPhim" />
+    <EntitySet Name="NhanViens" EntityType="QLRapPhimModel.NhanVien" />
+    <EntitySet Name="Phims" EntityType="QLRapPhimModel.Phim" />
+    <EntitySet Name="PhongChieux" EntityType="QLRapPhimModel.PhongChieu" />
+    <EntitySet Name="QuayTPs" EntityType="QLRapPhimModel.QuayTP" />
+    <EntitySet Name="QuocGias" EntityType="QLRapPhimModel.QuocGia" />
+    <EntitySet Name="SuatChieux" EntityType="QLRapPhimModel.SuatChieu" />
+    <EntitySet Name="SuKienKMs" EntityType="QLRapPhimModel.SuKienKM" />
+    <EntitySet Name="sysdiagrams" EntityType="QLRapPhimModel.sysdiagram" />
+    <EntitySet Name="TaiKhoans" EntityType="QLRapPhimModel.TaiKhoan" />
+    <EntitySet Name="Ves" EntityType="QLRapPhimModel.Ve" />
+    <AssociationSet Name="FK_Lich_ChucVu" Association="QLRapPhimModel.FK_Lich_ChucVu">
+      <End Role="ChucVu" EntitySet="ChucVus" />
+      <End Role="Lich" EntitySet="Liches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NhanVien_ChucVu" Association="QLRapPhimModel.FK_NhanVien_ChucVu">
+      <End Role="ChucVu" EntitySet="ChucVus" />
+      <End Role="NhanVien" EntitySet="NhanViens" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Gia_DangPhim" Association="QLRapPhimModel.FK_Gia_DangPhim">
+      <End Role="DangPhim" EntitySet="DangPhims" />
+      <End Role="Gia" EntitySet="Gias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Phim_DangPhim1" Association="QLRapPhimModel.FK_Phim_DangPhim1">
+      <End Role="DangPhim" EntitySet="DangPhims" />
+      <End Role="Phim" EntitySet="Phims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ve_Gia" Association="QLRapPhimModel.FK_Ve_Gia">
+      <End Role="Gia" EntitySet="Gias" />
+      <End Role="Ve" EntitySet="Ves" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lich_NhanVien" Association="QLRapPhimModel.FK_Lich_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanViens" />
+      <End Role="Lich" EntitySet="Liches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LichChieu_PhongChieu" Association="QLRapPhimModel.FK_LichChieu_PhongChieu">
+      <End Role="PhongChieu" EntitySet="PhongChieux" />
+      <End Role="LichChieu" EntitySet="LichChieux" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Phim_LoaiPhim" Association="QLRapPhimModel.FK_Phim_LoaiPhim">
+      <End Role="LoaiPhim" EntitySet="LoaiPhims" />
+      <End Role="Phim" EntitySet="Phims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhongChieu_NhanVien" Association="QLRapPhimModel.FK_PhongChieu_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanViens" />
+      <End Role="PhongChieu" EntitySet="PhongChieux" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QuayTP_NhanVien" Association="QLRapPhimModel.FK_QuayTP_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanViens" />
+      <End Role="QuayTP" EntitySet="QuayTPs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaiKhoan_NhanVien" Association="QLRapPhimModel.FK_TaiKhoan_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanViens" />
+      <End Role="TaiKhoan" EntitySet="TaiKhoans" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ve_NhanVien" Association="QLRapPhimModel.FK_Ve_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanViens" />
+      <End Role="Ve" EntitySet="Ves" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Phim_DangPhim" Association="QLRapPhimModel.FK_Phim_DangPhim">
+      <End Role="QuocGia" EntitySet="QuocGias" />
+      <End Role="Phim" EntitySet="Phims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhongChieu_Phim" Association="QLRapPhimModel.FK_PhongChieu_Phim">
+      <End Role="Phim" EntitySet="Phims" />
+      <End Role="PhongChieu" EntitySet="PhongChieux" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ve_PhongChieu" Association="QLRapPhimModel.FK_Ve_PhongChieu">
+      <End Role="PhongChieu" EntitySet="PhongChieux" />
+      <End Role="Ve" EntitySet="Ves" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ve_SuatChieu" Association="QLRapPhimModel.FK_Ve_SuatChieu">
+      <End Role="SuatChieu" EntitySet="SuatChieux" />
+      <End Role="Ve" EntitySet="Ves" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ve_SuKienKM" Association="QLRapPhimModel.FK_Ve_SuKienKM">
+      <End Role="SuKienKM" EntitySet="SuKienKMs" />
+      <End Role="Ve" EntitySet="Ves" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ChucVu">
+    <Key>
+      <PropertyRef Name="IDChucVu" />
+    </Key>
+    <Property Name="IDChucVu" Type="Int32" Nullable="false" />
+    <Property Name="ChucVu1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Liches" Relationship="QLRapPhimModel.FK_Lich_ChucVu" FromRole="ChucVu" ToRole="Lich" />
+    <NavigationProperty Name="NhanViens" Relationship="QLRapPhimModel.FK_NhanVien_ChucVu" FromRole="ChucVu" ToRole="NhanVien" />
+  </EntityType>
+  <EntityType Name="DangPhim">
+    <Key>
+      <PropertyRef Name="MaDangPhim" />
+    </Key>
+    <Property Name="MaDangPhim" Type="String" Nullable="false" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="TenDangPhim" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Gias" Relationship="QLRapPhimModel.FK_Gia_DangPhim" FromRole="DangPhim" ToRole="Gia" />
+    <NavigationProperty Name="Phims" Relationship="QLRapPhimModel.FK_Phim_DangPhim1" FromRole="DangPhim" ToRole="Phim" />
+  </EntityType>
+  <EntityType Name="Gia">
+    <Key>
+      <PropertyRef Name="MaGia" />
+    </Key>
+    <Property Name="MaGia" Type="String" Nullable="false" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="MaDangPhim" Type="String" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="SoTien" Type="Int32" />
+    <NavigationProperty Name="DangPhim" Relationship="QLRapPhimModel.FK_Gia_DangPhim" FromRole="Gia" ToRole="DangPhim" />
+    <NavigationProperty Name="Ves" Relationship="QLRapPhimModel.FK_Ve_Gia" FromRole="Gia" ToRole="Ve" />
+  </EntityType>
+  <EntityType Name="Lich">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaNV" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Date" Type="DateTime" />
+    <Property Name="Fromtime" Type="Time" />
+    <Property Name="ToTime" Type="Time" />
+    <Property Name="CreatedDate" Type="DateTime" />
+    <Property Name="UpdatedDate" Type="DateTime" />
+    <Property Name="IDChucVu" Type="Int32" />
+    <NavigationProperty Name="ChucVu" Relationship="QLRapPhimModel.FK_Lich_ChucVu" FromRole="Lich" ToRole="ChucVu" />
+    <NavigationProperty Name="NhanVien" Relationship="QLRapPhimModel.FK_Lich_NhanVien" FromRole="Lich" ToRole="NhanVien" />
+  </EntityType>
+  <EntityType Name="LichChieu">
+    <Key>
+      <PropertyRef Name="MaChieu" />
+    </Key>
+    <Property Name="MaChieu" Type="Int32" Nullable="false" />
+    <Property Name="MaPC" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="MaS" Type="Int32" />
+    <Property Name="NgayChieu" Type="DateTime" />
+    <Property Name="MaPhim" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="PhongChieu" Relationship="QLRapPhimModel.FK_LichChieu_PhongChieu" FromRole="LichChieu" ToRole="PhongChieu" />
+  </EntityType>
+  <EntityType Name="LoaiPhim">
+    <Key>
+      <PropertyRef Name="MaLoaiPhim" />
+    </Key>
+    <Property Name="MaLoaiPhim" Type="String" Nullable="false" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="TenLoaiPhim" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Phims" Relationship="QLRapPhimModel.FK_Phim_LoaiPhim" FromRole="LoaiPhim" ToRole="Phim" />
+  </EntityType>
+  <EntityType Name="NhanVien">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaNV" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="IDChucVu" Type="Int32" />
+    <Property Name="HoNV" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="TenNV" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="SDT" Type="Int32" />
+    <Property Name="DiaChi" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="ChucVu" Relationship="QLRapPhimModel.FK_NhanVien_ChucVu" FromRole="NhanVien" ToRole="ChucVu" />
+    <NavigationProperty Name="Lich" Relationship="QLRapPhimModel.FK_Lich_NhanVien" FromRole="NhanVien" ToRole="Lich" />
+    <NavigationProperty Name="PhongChieux" Relationship="QLRapPhimModel.FK_PhongChieu_NhanVien" FromRole="NhanVien" ToRole="PhongChieu" />
+    <NavigationProperty Name="QuayTPs" Relationship="QLRapPhimModel.FK_QuayTP_NhanVien" FromRole="NhanVien" ToRole="QuayTP" />
+    <NavigationProperty Name="TaiKhoan" Relationship="QLRapPhimModel.FK_TaiKhoan_NhanVien" FromRole="NhanVien" ToRole="TaiKhoan" />
+    <NavigationProperty Name="Ves" Relationship="QLRapPhimModel.FK_Ve_NhanVien" FromRole="NhanVien" ToRole="Ve" />
+  </EntityType>
+  <EntityType Name="Phim">
+    <Key>
+      <PropertyRef Name="MaPhim" />
+    </Key>
+    <Property Name="MaPhim" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="MaLoaiPhim" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+    <Property Name="TenP" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DoDaiGio" Type="Int32" />
+    <Property Name="DoDaiPhut" Type="Int32" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="MaDangPhim" Type="String" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="NgayBatDau" Type="DateTime" />
+    <Property Name="NgayKetThuc" Type="DateTime" />
+    <Property Name="MoTaPhim" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="AnhPhim" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="DangPhim" Relationship="QLRapPhimModel.FK_Phim_DangPhim1" FromRole="Phim" ToRole="DangPhim" />
+    <NavigationProperty Name="LoaiPhim" Relationship="QLRapPhimModel.FK_Phim_LoaiPhim" FromRole="Phim" ToRole="LoaiPhim" />
+    <NavigationProperty Name="QuocGia" Relationship="QLRapPhimModel.FK_Phim_DangPhim" FromRole="Phim" ToRole="QuocGia" />
+    <NavigationProperty Name="PhongChieux" Relationship="QLRapPhimModel.FK_PhongChieu_Phim" FromRole="Phim" ToRole="PhongChieu" />
+  </EntityType>
+  <EntityType Name="PhongChieu">
+    <Key>
+      <PropertyRef Name="MaPC" />
+    </Key>
+    <Property Name="MaPC" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="TenPhong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MaPhim" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="MaNV" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MaS" Type="Int32" />
+    <Property Name="SoGhe" Type="Int32" />
+    <Property Name="DayGhe" Type="String" MaxLength="10" Unicode="false" FixedLength="true" />
+    <NavigationProperty Name="LichChieux" Relationship="QLRapPhimModel.FK_LichChieu_PhongChieu" FromRole="PhongChieu" ToRole="LichChieu" />
+    <NavigationProperty Name="NhanVien" Relationship="QLRapPhimModel.FK_PhongChieu_NhanVien" FromRole="PhongChieu" ToRole="NhanVien" />
+    <NavigationProperty Name="Phim" Relationship="QLRapPhimModel.FK_PhongChieu_Phim" FromRole="PhongChieu" ToRole="Phim" />
+    <NavigationProperty Name="Ves" Relationship="QLRapPhimModel.FK_Ve_PhongChieu" FromRole="PhongChieu" ToRole="Ve" />
+  </EntityType>
+  <EntityType Name="QuayTP">
+    <Key>
+      <PropertyRef Name="MaSP" />
+    </Key>
+    <Property Name="MaSP" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MaNV" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="TenSP" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="LoaiSP" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="SoLuong" Type="Int32" />
+    <Property Name="DonVi" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="NhanVien" Relationship="QLRapPhimModel.FK_QuayTP_NhanVien" FromRole="QuayTP" ToRole="NhanVien" />
+  </EntityType>
+  <EntityType Name="QuocGia">
+    <Key>
+      <PropertyRef Name="MaQuocGia" />
+    </Key>
+    <Property Name="MaQuocGia" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Phims" Relationship="QLRapPhimModel.FK_Phim_DangPhim" FromRole="QuocGia" ToRole="Phim" />
+  </EntityType>
+  <EntityType Name="SuatChieu">
+    <Key>
+      <PropertyRef Name="MaS" />
+    </Key>
+    <Property Name="MaS" Type="Int32" Nullable="false" />
+    <Property Name="MaPhim" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="GioChieu" Type="Int32" />
+    <Property Name="PhutChieu" Type="Int32" />
+    <NavigationProperty Name="Ves" Relationship="QLRapPhimModel.FK_Ve_SuatChieu" FromRole="SuatChieu" ToRole="Ve" />
+  </EntityType>
+  <EntityType Name="SuKienKM">
+    <Key>
+      <PropertyRef Name="MaSuKien" />
+    </Key>
+    <Property Name="MaSuKien" Type="Int32" Nullable="false" />
+    <Property Name="TenSuKien" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="NoiDung" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="NgayBatDau" Type="DateTime" />
+    <Property Name="NgayKetThuc" Type="DateTime" />
+    <Property Name="HinhAnh" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="MucGiamGia" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Ves" Relationship="QLRapPhimModel.FK_Ve_SuKienKM" FromRole="SuKienKM" ToRole="Ve" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TaiKhoan">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="TenTK" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="pass" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="NhanVien" Relationship="QLRapPhimModel.FK_TaiKhoan_NhanVien" FromRole="TaiKhoan" ToRole="NhanVien" />
+  </EntityType>
+  <EntityType Name="Ve">
+    <Key>
+      <PropertyRef Name="MaVe" />
+    </Key>
+    <Property Name="MaVe" Type="Int32" Nullable="false" />
+    <Property Name="MaNV" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MaPC" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="MaS" Type="Int32" />
+    <Property Name="MaGia" Type="String" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="MaSuKien" Type="Int32" />
+    <Property Name="MaChieu" Type="Int32" />
+    <Property Name="MaPhim" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Ghe" Type="Int32" />
+    <Property Name="Day" Type="String" MaxLength="10" Unicode="false" FixedLength="true" />
+    <Property Name="TenP" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DonGia" Type="Int32" />
+    <NavigationProperty Name="Gia" Relationship="QLRapPhimModel.FK_Ve_Gia" FromRole="Ve" ToRole="Gia" />
+    <NavigationProperty Name="NhanVien" Relationship="QLRapPhimModel.FK_Ve_NhanVien" FromRole="Ve" ToRole="NhanVien" />
+    <NavigationProperty Name="PhongChieu" Relationship="QLRapPhimModel.FK_Ve_PhongChieu" FromRole="Ve" ToRole="PhongChieu" />
+    <NavigationProperty Name="SuatChieu" Relationship="QLRapPhimModel.FK_Ve_SuatChieu" FromRole="Ve" ToRole="SuatChieu" />
+    <NavigationProperty Name="SuKienKM" Relationship="QLRapPhimModel.FK_Ve_SuKienKM" FromRole="Ve" ToRole="SuKienKM" />
+  </EntityType>
+  <Association Name="FK_Lich_ChucVu">
+    <End Role="ChucVu" Type="QLRapPhimModel.ChucVu" Multiplicity="0..1" />
+    <End Role="Lich" Type="QLRapPhimModel.Lich" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ChucVu">
+        <PropertyRef Name="IDChucVu" />
+      </Principal>
+      <Dependent Role="Lich">
+        <PropertyRef Name="IDChucVu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NhanVien_ChucVu">
+    <End Role="ChucVu" Type="QLRapPhimModel.ChucVu" Multiplicity="0..1" />
+    <End Role="NhanVien" Type="QLRapPhimModel.NhanVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ChucVu">
+        <PropertyRef Name="IDChucVu" />
+      </Principal>
+      <Dependent Role="NhanVien">
+        <PropertyRef Name="IDChucVu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Gia_DangPhim">
+    <End Role="DangPhim" Type="QLRapPhimModel.DangPhim" Multiplicity="0..1" />
+    <End Role="Gia" Type="QLRapPhimModel.Gia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DangPhim">
+        <PropertyRef Name="MaDangPhim" />
+      </Principal>
+      <Dependent Role="Gia">
+        <PropertyRef Name="MaDangPhim" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Phim_DangPhim1">
+    <End Role="DangPhim" Type="QLRapPhimModel.DangPhim" Multiplicity="0..1" />
+    <End Role="Phim" Type="QLRapPhimModel.Phim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DangPhim">
+        <PropertyRef Name="MaDangPhim" />
+      </Principal>
+      <Dependent Role="Phim">
+        <PropertyRef Name="MaDangPhim" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ve_Gia">
+    <End Role="Gia" Type="QLRapPhimModel.Gia" Multiplicity="0..1" />
+    <End Role="Ve" Type="QLRapPhimModel.Ve" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gia">
+        <PropertyRef Name="MaGia" />
+      </Principal>
+      <Dependent Role="Ve">
+        <PropertyRef Name="MaGia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lich_NhanVien">
+    <End Role="NhanVien" Type="QLRapPhimModel.NhanVien" Multiplicity="1" />
+    <End Role="Lich" Type="QLRapPhimModel.Lich" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="Lich">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LichChieu_PhongChieu">
+    <End Role="PhongChieu" Type="QLRapPhimModel.PhongChieu" Multiplicity="0..1" />
+    <End Role="LichChieu" Type="QLRapPhimModel.LichChieu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhongChieu">
+        <PropertyRef Name="MaPC" />
+      </Principal>
+      <Dependent Role="LichChieu">
+        <PropertyRef Name="MaPC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Phim_LoaiPhim">
+    <End Role="LoaiPhim" Type="QLRapPhimModel.LoaiPhim" Multiplicity="0..1" />
+    <End Role="Phim" Type="QLRapPhimModel.Phim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiPhim">
+        <PropertyRef Name="MaLoaiPhim" />
+      </Principal>
+      <Dependent Role="Phim">
+        <PropertyRef Name="MaLoaiPhim" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhongChieu_NhanVien">
+    <End Role="NhanVien" Type="QLRapPhimModel.NhanVien" Multiplicity="0..1" />
+    <End Role="PhongChieu" Type="QLRapPhimModel.PhongChieu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="PhongChieu">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QuayTP_NhanVien">
+    <End Role="NhanVien" Type="QLRapPhimModel.NhanVien" Multiplicity="0..1" />
+    <End Role="QuayTP" Type="QLRapPhimModel.QuayTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="QuayTP">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaiKhoan_NhanVien">
+    <End Role="NhanVien" Type="QLRapPhimModel.NhanVien" Multiplicity="1" />
+    <End Role="TaiKhoan" Type="QLRapPhimModel.TaiKhoan" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="TaiKhoan">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ve_NhanVien">
+    <End Role="NhanVien" Type="QLRapPhimModel.NhanVien" Multiplicity="0..1" />
+    <End Role="Ve" Type="QLRapPhimModel.Ve" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="Ve">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Phim_DangPhim">
+    <End Role="QuocGia" Type="QLRapPhimModel.QuocGia" Multiplicity="0..1" />
+    <End Role="Phim" Type="QLRapPhimModel.Phim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuocGia">
+        <PropertyRef Name="MaQuocGia" />
+      </Principal>
+      <Dependent Role="Phim">
+        <PropertyRef Name="MaQuocGia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhongChieu_Phim">
+    <End Role="Phim" Type="QLRapPhimModel.Phim" Multiplicity="0..1" />
+    <End Role="PhongChieu" Type="QLRapPhimModel.PhongChieu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Phim">
+        <PropertyRef Name="MaPhim" />
+      </Principal>
+      <Dependent Role="PhongChieu">
+        <PropertyRef Name="MaPhim" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ve_PhongChieu">
+    <End Role="PhongChieu" Type="QLRapPhimModel.PhongChieu" Multiplicity="0..1" />
+    <End Role="Ve" Type="QLRapPhimModel.Ve" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhongChieu">
+        <PropertyRef Name="MaPC" />
+      </Principal>
+      <Dependent Role="Ve">
+        <PropertyRef Name="MaPC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ve_SuatChieu">
+    <End Role="SuatChieu" Type="QLRapPhimModel.SuatChieu" Multiplicity="0..1" />
+    <End Role="Ve" Type="QLRapPhimModel.Ve" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SuatChieu">
+        <PropertyRef Name="MaS" />
+      </Principal>
+      <Dependent Role="Ve">
+        <PropertyRef Name="MaS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ve_SuKienKM">
+    <End Role="SuKienKM" Type="QLRapPhimModel.SuKienKM" Multiplicity="0..1" />
+    <End Role="Ve" Type="QLRapPhimModel.Ve" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SuKienKM">
+        <PropertyRef Name="MaSuKien" />
+      </Principal>
+      <Dependent Role="Ve">
+        <PropertyRef Name="MaSuKien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C3271BDA-6D89-4067-B150-2A62DBCF9536}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CinemaManagement</RootNamespace>
+    <AssemblyName>CinemaManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SqlServer.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23ec7fc2d6eaa4a5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Server.1.0.0\lib\net46\Microsoft.SqlServer.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forminthongtin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forminthongtin.Designer.cs">
+      <DependentUpon>Forminthongtin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frLich.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frLich.designer.cs">
+      <DependentUpon>frLich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frAdmin.Designer.cs">
+      <DependentUpon>frAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frConfig.Designer.cs">
+      <DependentUpon>frConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frLogin.Designer.cs">
+      <DependentUpon>frLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frMain.Designer.cs">
+      <DependentUpon>frMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frMain2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frMain2.Designer.cs">
+      <DependentUpon>frMain2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frOrther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frOrther.Designer.cs">
+      <DependentUpon>frOrther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frPhim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frPhim.designer.cs">
+      <DependentUpon>frPhim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frRP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frRP.Designer.cs">
+      <DependentUpon>frRP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frSkkm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frSkkm.Designer.cs">
+      <DependentUpon>frSkkm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frSplash.Designer.cs">
+      <DependentUpon>frSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrSuatChieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrSuatChieu.Designer.cs">
+      <DependentUpon>FrSuatChieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frThongKe.Designer.cs">
+      <DependentUpon>frThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LopDungChung.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLRapPhimDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLRapPhimDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TruyenData.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forminthongtin.resx">
+      <DependentUpon>Forminthongtin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frLich.resx">
+      <DependentUpon>frLich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frAdmin.resx">
+      <DependentUpon>frAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frConfig.resx">
+      <DependentUpon>frConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frLogin.resx">
+      <DependentUpon>frLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frMain.resx">
+      <DependentUpon>frMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frMain2.resx">
+      <DependentUpon>frMain2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frOrther.resx">
+      <DependentUpon>frOrther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frPhim.resx">
+      <DependentUpon>frPhim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frRP.resx">
+      <DependentUpon>frRP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frSkkm.resx">
+      <DependentUpon>frSkkm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frSplash.resx">
+      <DependentUpon>frSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrSuatChieu.resx">
+      <DependentUpon>FrSuatChieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frThongKe.resx">
+      <DependentUpon>frThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="QLRapPhimDataSet.xsc">
+      <DependentUpon>QLRapPhimDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLRapPhimDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLRapPhimDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLRapPhimDataSet.xss">
+      <DependentUpon>QLRapPhimDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\logo_lotte.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

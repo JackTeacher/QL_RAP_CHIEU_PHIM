@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLRapPhimModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="QLRapPhimModelStoreContainer">
+    <EntitySet Name="ChucVu" EntityType="QLRapPhimModel.Store.ChucVu" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DangPhim" EntityType="QLRapPhimModel.Store.DangPhim" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Gia" EntityType="QLRapPhimModel.Store.Gia" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Lich" EntityType="QLRapPhimModel.Store.Lich" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LichChieu" EntityType="QLRapPhimModel.Store.LichChieu" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LoaiPhim" EntityType="QLRapPhimModel.Store.LoaiPhim" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="NhanVien" EntityType="QLRapPhimModel.Store.NhanVien" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Phim" EntityType="QLRapPhimModel.Store.Phim" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhongChieu" EntityType="QLRapPhimModel.Store.PhongChieu" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="QuayTP" EntityType="QLRapPhimModel.Store.QuayTP" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="QuocGia" EntityType="QLRapPhimModel.Store.QuocGia" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SuatChieu" EntityType="QLRapPhimModel.Store.SuatChieu" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SuKienKM" EntityType="QLRapPhimModel.Store.SuKienKM" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="QLRapPhimModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TaiKhoan" EntityType="QLRapPhimModel.Store.TaiKhoan" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ve" EntityType="QLRapPhimModel.Store.Ve" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Gia_DangPhim" Association="QLRapPhimModel.Store.FK_Gia_DangPhim">
+      <End Role="DangPhim" EntitySet="DangPhim" />
+      <End Role="Gia" EntitySet="Gia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lich_ChucVu" Association="QLRapPhimModel.Store.FK_Lich_ChucVu">
+      <End Role="ChucVu" EntitySet="ChucVu" />
+      <End Role="Lich" EntitySet="Lich" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lich_NhanVien" Association="QLRapPhimModel.Store.FK_Lich_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanVien" />
+      <End Role="Lich" EntitySet="Lich" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LichChieu_PhongChieu" Association="QLRapPhimModel.Store.FK_LichChieu_PhongChieu">
+      <End Role="PhongChieu" EntitySet="PhongChieu" />
+      <End Role="LichChieu" EntitySet="LichChieu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NhanVien_ChucVu" Association="QLRapPhimModel.Store.FK_NhanVien_ChucVu">
+      <End Role="ChucVu" EntitySet="ChucVu" />
+      <End Role="NhanVien" EntitySet="NhanVien" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Phim_DangPhim" Association="QLRapPhimModel.Store.FK_Phim_DangPhim">
+      <End Role="QuocGia" EntitySet="QuocGia" />
+      <End Role="Phim" EntitySet="Phim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Phim_DangPhim1" Association="QLRapPhimModel.Store.FK_Phim_DangPhim1">
+      <End Role="DangPhim" EntitySet="DangPhim" />
+      <End Role="Phim" EntitySet="Phim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Phim_LoaiPhim" Association="QLRapPhimModel.Store.FK_Phim_LoaiPhim">
+      <End Role="LoaiPhim" EntitySet="LoaiPhim" />
+      <End Role="Phim" EntitySet="Phim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhongChieu_NhanVien" Association="QLRapPhimModel.Store.FK_PhongChieu_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanVien" />
+      <End Role="PhongChieu" EntitySet="PhongChieu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhongChieu_Phim" Association="QLRapPhimModel.Store.FK_PhongChieu_Phim">
+      <End Role="Phim" EntitySet="Phim" />
+      <End Role="PhongChieu" EntitySet="PhongChieu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QuayTP_NhanVien" Association="QLRapPhimModel.Store.FK_QuayTP_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanVien" />
+      <End Role="QuayTP" EntitySet="QuayTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaiKhoan_NhanVien" Association="QLRapPhimModel.Store.FK_TaiKhoan_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanVien" />
+      <End Role="TaiKhoan" EntitySet="TaiKhoan" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ve_Gia" Association="QLRapPhimModel.Store.FK_Ve_Gia">
+      <End Role="Gia" EntitySet="Gia" />
+      <End Role="Ve" EntitySet="Ve" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ve_NhanVien" Association="QLRapPhimModel.Store.FK_Ve_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanVien" />
+      <End Role="Ve" EntitySet="Ve" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ve_PhongChieu" Association="QLRapPhimModel.Store.FK_Ve_PhongChieu">
+      <End Role="PhongChieu" EntitySet="PhongChieu" />
+      <End Role="Ve" EntitySet="Ve" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ve_SuatChieu" Association="QLRapPhimModel.Store.FK_Ve_SuatChieu">
+      <End Role="SuatChieu" EntitySet="SuatChieu" />
+      <End Role="Ve" EntitySet="Ve" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ve_SuKienKM" Association="QLRapPhimModel.Store.FK_Ve_SuKienKM">
+      <End Role="SuKienKM" EntitySet="SuKienKM" />
+      <End Role="Ve" EntitySet="Ve" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ChucVu">
+    <Key>
+      <PropertyRef Name="IDChucVu" />
+    </Key>
+    <Property Name="IDChucVu" Type="int" Nullable="false" />
+    <Property Name="ChucVu" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DangPhim">
+    <Key>
+      <PropertyRef Name="MaDangPhim" />
+    </Key>
+    <Property Name="MaDangPhim" Type="varchar" Nullable="false" MaxLength="5" />
+    <Property Name="TenDangPhim" Type="nvarchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="Gia">
+    <Key>
+      <PropertyRef Name="MaGia" />
+    </Key>
+    <Property Name="MaGia" Type="varchar" Nullable="false" MaxLength="5" />
+    <Property Name="MaDangPhim" Type="varchar" MaxLength="5" />
+    <Property Name="SoTien" Type="int" />
+  </EntityType>
+  <EntityType Name="Lich">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MaNV" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Fromtime" Type="time" />
+    <Property Name="ToTime" Type="time" />
+    <Property Name="CreatedDate" Type="date" />
+    <Property Name="UpdatedDate" Type="date" />
+    <Property Name="IDChucVu" Type="int" />
+  </EntityType>
+  <EntityType Name="LichChieu">
+    <Key>
+      <PropertyRef Name="MaChieu" />
+    </Key>
+    <Property Name="MaChieu" Type="int" Nullable="false" />
+    <Property Name="MaPC" Type="nchar" MaxLength="10" />
+    <Property Name="MaS" Type="int" />
+    <Property Name="NgayChieu" Type="datetime" />
+    <Property Name="MaPhim" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="LoaiPhim">
+    <Key>
+      <PropertyRef Name="MaLoaiPhim" />
+    </Key>
+    <Property Name="MaLoaiPhim" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="TenLoaiPhim" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="NhanVien">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MaNV" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IDChucVu" Type="int" />
+    <Property Name="HoNV" Type="nvarchar" MaxLength="50" />
+    <Property Name="TenNV" Type="nvarchar" MaxLength="50" />
+    <Property Name="SDT" Type="int" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Phim">
+    <Key>
+      <PropertyRef Name="MaPhim" />
+    </Key>
+    <Property Name="MaPhim" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="MaLoaiPhim" Type="varchar" MaxLength="6" />
+    <Property Name="TenP" Type="nvarchar" MaxLength="50" />
+    <Property Name="DoDaiGio" Type="int" />
+    <Property Name="DoDaiPhut" Type="int" />
+    <Property Name="MaQuocGia" Type="varchar" MaxLength="50" />
+    <Property Name="MaDangPhim" Type="varchar" MaxLength="5" />
+    <Property Name="NgayBatDau" Type="datetime" />
+    <Property Name="NgayKetThuc" Type="datetime" />
+    <Property Name="MoTaPhim" Type="ntext" />
+    <Property Name="AnhPhim" Type="image" />
+  </EntityType>
+  <EntityType Name="PhongChieu">
+    <Key>
+      <PropertyRef Name="MaPC" />
+    </Key>
+    <Property Name="MaPC" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="TenPhong" Type="nvarchar" MaxLength="50" />
+    <Property Name="MaPhim" Type="nchar" MaxLength="10" />
+    <Property Name="MaNV" Type="nvarchar" MaxLength="50" />
+    <Property Name="MaS" Type="int" />
+    <Property Name="SoGhe" Type="int" />
+    <Property Name="DayGhe" Type="char" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="QuayTP">
+    <Key>
+      <PropertyRef Name="MaSP" />
+    </Key>
+    <Property Name="MaSP" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="MaNV" Type="nvarchar" MaxLength="50" />
+    <Property Name="TenSP" Type="nvarchar" MaxLength="50" />
+    <Property Name="LoaiSP" Type="nvarchar" MaxLength="50" />
+    <Property Name="SoLuong" Type="int" />
+    <Property Name="DonVi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="QuocGia">
+    <Key>
+      <PropertyRef Name="MaQuocGia" />
+    </Key>
+    <Property Name="MaQuocGia" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="TenQuocGia" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SuatChieu">
+    <Key>
+      <PropertyRef Name="MaS" />
+    </Key>
+    <Property Name="MaS" Type="int" Nullable="false" />
+    <Property Name="MaPhim" Type="nchar" MaxLength="10" />
+    <Property Name="GioChieu" Type="int" />
+    <Property Name="PhutChieu" Type="int" />
+  </EntityType>
+  <EntityType Name="SuKienKM">
+    <Key>
+      <PropertyRef Name="MaSuKien" />
+    </Key>
+    <Property Name="MaSuKien" Type="int" Nullable="false" />
+    <Property Name="TenSuKien" Type="nvarchar" MaxLength="20" />
+    <Property Name="NoiDung" Type="ntext" />
+    <Property Name="NgayBatDau" Type="datetime" />
+    <Property Name="NgayKetThuc" Type="datetime" />
+    <Property Name="HinhAnh" Type="image" />
+    <Property Name="MucGiamGia" Type="nvarchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TaiKhoan">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="TenTK" Type="nvarchar" MaxLength="50" />
+    <Property Name="pass" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Ve">
+    <Key>
+      <PropertyRef Name="MaVe" />
+    </Key>
+    <Property Name="MaVe" Type="int" Nullable="false" />
+    <Property Name="MaNV" Type="nvarchar" MaxLength="50" />
+    <Property Name="MaPC" Type="nchar" MaxLength="10" />
+    <Property Name="MaS" Type="int" />
+    <Property Name="MaGia" Type="varchar" MaxLength="5" />
+    <Property Name="MaSuKien" Type="int" />
+    <Property Name="MaChieu" Type="int" />
+    <Property Name="MaPhim" Type="nchar" MaxLength="10" />
+    <Property Name="Ghe" Type="int" />
+    <Property Name="Day" Type="char" MaxLength="10" />
+    <Property Name="TenP" Type="nvarchar" MaxLength="50" />
+    <Property Name="DonGia" Type="int" />
+  </EntityType>
+  <Association Name="FK_Gia_DangPhim">
+    <End Role="DangPhim" Type="QLRapPhimModel.Store.DangPhim" Multiplicity="0..1" />
+    <End Role="Gia" Type="QLRapPhimModel.Store.Gia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DangPhim">
+        <PropertyRef Name="MaDangPhim" />
+      </Principal>
+      <Dependent Role="Gia">
+        <PropertyRef Name="MaDangPhim" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lich_ChucVu">
+    <End Role="ChucVu" Type="QLRapPhimModel.Store.ChucVu" Multiplicity="0..1" />
+    <End Role="Lich" Type="QLRapPhimModel.Store.Lich" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ChucVu">
+        <PropertyRef Name="IDChucVu" />
+      </Principal>
+      <Dependent Role="Lich">
+        <PropertyRef Name="IDChucVu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lich_NhanVien">
+    <End Role="NhanVien" Type="QLRapPhimModel.Store.NhanVien" Multiplicity="1" />
+    <End Role="Lich" Type="QLRapPhimModel.Store.Lich" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="Lich">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LichChieu_PhongChieu">
+    <End Role="PhongChieu" Type="QLRapPhimModel.Store.PhongChieu" Multiplicity="0..1" />
+    <End Role="LichChieu" Type="QLRapPhimModel.Store.LichChieu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhongChieu">
+        <PropertyRef Name="MaPC" />
+      </Principal>
+      <Dependent Role="LichChieu">
+        <PropertyRef Name="MaPC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NhanVien_ChucVu">
+    <End Role="ChucVu" Type="QLRapPhimModel.Store.ChucVu" Multiplicity="0..1" />
+    <End Role="NhanVien" Type="QLRapPhimModel.Store.NhanVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ChucVu">
+        <PropertyRef Name="IDChucVu" />
+      </Principal>
+      <Dependent Role="NhanVien">
+        <PropertyRef Name="IDChucVu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Phim_DangPhim">
+    <End Role="QuocGia" Type="QLRapPhimModel.Store.QuocGia" Multiplicity="0..1" />
+    <End Role="Phim" Type="QLRapPhimModel.Store.Phim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuocGia">
+        <PropertyRef Name="MaQuocGia" />
+      </Principal>
+      <Dependent Role="Phim">
+        <PropertyRef Name="MaQuocGia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Phim_DangPhim1">
+    <End Role="DangPhim" Type="QLRapPhimModel.Store.DangPhim" Multiplicity="0..1" />
+    <End Role="Phim" Type="QLRapPhimModel.Store.Phim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DangPhim">
+        <PropertyRef Name="MaDangPhim" />
+      </Principal>
+      <Dependent Role="Phim">
+        <PropertyRef Name="MaDangPhim" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Phim_LoaiPhim">
+    <End Role="LoaiPhim" Type="QLRapPhimModel.Store.LoaiPhim" Multiplicity="0..1" />
+    <End Role="Phim" Type="QLRapPhimModel.Store.Phim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiPhim">
+        <PropertyRef Name="MaLoaiPhim" />
+      </Principal>
+      <Dependent Role="Phim">
+        <PropertyRef Name="MaLoaiPhim" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhongChieu_NhanVien">
+    <End Role="NhanVien" Type="QLRapPhimModel.Store.NhanVien" Multiplicity="0..1" />
+    <End Role="PhongChieu" Type="QLRapPhimModel.Store.PhongChieu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="PhongChieu">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhongChieu_Phim">
+    <End Role="Phim" Type="QLRapPhimModel.Store.Phim" Multiplicity="0..1" />
+    <End Role="PhongChieu" Type="QLRapPhimModel.Store.PhongChieu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Phim">
+        <PropertyRef Name="MaPhim" />
+      </Principal>
+      <Dependent Role="PhongChieu">
+        <PropertyRef Name="MaPhim" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QuayTP_NhanVien">
+    <End Role="NhanVien" Type="QLRapPhimModel.Store.NhanVien" Multiplicity="0..1" />
+    <End Role="QuayTP" Type="QLRapPhimModel.Store.QuayTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="QuayTP">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaiKhoan_NhanVien">
+    <End Role="NhanVien" Type="QLRapPhimModel.Store.NhanVien" Multiplicity="1" />
+    <End Role="TaiKhoan" Type="QLRapPhimModel.Store.TaiKhoan" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="TaiKhoan">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ve_Gia">
+    <End Role="Gia" Type="QLRapPhimModel.Store.Gia" Multiplicity="0..1" />
+    <End Role="Ve" Type="QLRapPhimModel.Store.Ve" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gia">
+        <PropertyRef Name="MaGia" />
+      </Principal>
+      <Dependent Role="Ve">
+        <PropertyRef Name="MaGia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ve_NhanVien">
+    <End Role="NhanVien" Type="QLRapPhimModel.Store.NhanVien" Multiplicity="0..1" />
+    <End Role="Ve" Type="QLRapPhimModel.Store.Ve" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="Ve">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ve_PhongChieu">
+    <End Role="PhongChieu" Type="QLRapPhimModel.Store.PhongChieu" Multiplicity="0..1" />
+    <End Role="Ve" Type="QLRapPhimModel.Store.Ve" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhongChieu">
+        <PropertyRef Name="MaPC" />
+      </Principal>
+      <Dependent Role="Ve">
+        <PropertyRef Name="MaPC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ve_SuatChieu">
+    <End Role="SuatChieu" Type="QLRapPhimModel.Store.SuatChieu" Multiplicity="0..1" />
+    <End Role="Ve" Type="QLRapPhimModel.Store.Ve" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SuatChieu">
+        <PropertyRef Name="MaS" />
+      </Principal>
+      <Dependent Role="Ve">
+        <PropertyRef Name="MaS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ve_SuKienKM">
+    <End Role="SuKienKM" Type="QLRapPhimModel.Store.SuKienKM" Multiplicity="0..1" />
+    <End Role="Ve" Type="QLRapPhimModel.Store.Ve" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SuKienKM">
+        <PropertyRef Name="MaSuKien" />
+      </Principal>
+      <Dependent Role="Ve">
+        <PropertyRef Name="MaSuKien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" ReturnType="int" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+</Schema>

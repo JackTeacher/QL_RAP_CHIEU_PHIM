@@ -1,0 +1,133 @@
+c:\users\win 8.1 version 2\documents\visual studio 2010\Projects\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.exe
+c:\users\win 8.1 version 2\documents\visual studio 2010\Projects\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.pdb
+c:\users\win 8.1 version 2\documents\visual studio 2010\Projects\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frMain.resources
+c:\users\win 8.1 version 2\documents\visual studio 2010\Projects\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frSplash.resources
+c:\users\win 8.1 version 2\documents\visual studio 2010\Projects\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.Properties.Resources.resources
+c:\users\win 8.1 version 2\documents\visual studio 2010\Projects\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.GenerateResource.Cache
+c:\users\win 8.1 version 2\documents\visual studio 2010\Projects\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.exe
+c:\users\win 8.1 version 2\documents\visual studio 2010\Projects\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.pdb
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.exe
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.pdb
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.exe
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.pdb
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frConfig.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frMain.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frSplash.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.Properties.Resources.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.GenerateResource.Cache
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csprojResolveAssemblyReference.cache
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.exe.config
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frAdmin.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frLogin.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frLich.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frMain2.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.Form1.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.forminthongtin.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frOrther.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frPhim.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frRP.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.FrSuatChieu.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frThongKe.resources
+C:\Users\Win 8.1 Version 2\Desktop\Cinema\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frSkkm.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.exe.config
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.exe
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.pdb
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.AssemblyReference.cache
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.Form1.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.forminthongtin.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frLich.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frAdmin.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frConfig.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frLogin.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frMain.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frMain2.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frOrther.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frPhim.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frRP.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frSkkm.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frSplash.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.FrSuatChieu.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frThongKe.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.Properties.Resources.resources
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.GenerateResource.cache
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.CoreCompileInputs.cache
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.exe
+D:\PTTKHT\CinemaManagement-C#\CinemaManagement-master\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.pdb
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.exe.config
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.exe
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.pdb
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.AssemblyReference.cache
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.Form1.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.forminthongtin.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frLich.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frAdmin.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frConfig.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frLogin.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frMain.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frMain2.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frOrther.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frPhim.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frRP.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frSkkm.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frSplash.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.FrSuatChieu.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frThongKe.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.Properties.Resources.resources
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.GenerateResource.cache
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.CoreCompileInputs.cache
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.exe
+C:\Users\NGOC QUANG\Desktop\PTTKHTTT\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.pdb
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.exe.config
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.exe
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.pdb
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.AssemblyReference.cache
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.SuggestedBindingRedirects.cache
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.Form1.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.forminthongtin.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frLich.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frAdmin.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frConfig.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frLogin.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frMain.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frMain2.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frOrther.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frPhim.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frRP.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frSkkm.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frSplash.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.FrSuatChieu.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frThongKe.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.Properties.Resources.resources
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.GenerateResource.cache
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.CoreCompileInputs.cache
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.exe
+D:\CNPM\Nhóm 9_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.pdb
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.exe.config
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.exe
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\bin\Debug\CinemaManagement.pdb
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\bin\Debug\Microsoft.SqlServer.Server.dll
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\bin\Debug\Microsoft.SqlServer.Server.pdb
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\bin\Debug\Microsoft.SqlServer.Server.xml
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.AssemblyReference.cache
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.SuggestedBindingRedirects.cache
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.Form1.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.forminthongtin.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frLich.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frAdmin.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frConfig.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frLogin.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frMain.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frMain2.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frOrther.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frPhim.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frRP.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frSkkm.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frSplash.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.FrSuatChieu.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.frThongKe.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.Properties.Resources.resources
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.GenerateResource.cache
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.CoreCompileInputs.cache
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.csproj.CopyComplete
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.exe
+D:\CNPM\Nhóm 6_QLRP\CinemaM\CinemaManagement\obj\x86\Debug\CinemaManagement.pdb
